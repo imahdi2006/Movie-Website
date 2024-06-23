@@ -1,7 +1,7 @@
-# React Project with API Integration, React Router, and Hooks
+# Movie Website with React
 
 ## Introduction
-This is a React project that integrates with an external API, uses React Router for navigation, and leverages various React hooks for state management and side effects. The application consists of three main pages and includes a dark mode/light mode toggle.
+This is a movie website built with React that integrates with an external API to fetch movie data. The application uses React Router for navigation between pages and leverages various React hooks for state management and side effects. The website consists of three main pages and includes a dark mode/light mode toggle for user convenience.
 
 ## Table of Contents
 1. [Features](#features)
@@ -14,7 +14,7 @@ This is a React project that integrates with an external API, uses React Router 
 8. [Support](#support)
 
 ## Features
-- **API Integration**: Fetches data from an external API.
+- **Movie Data**: Fetches movie data from an external API.
 - **React Router**: Manages navigation between multiple pages.
 - **Hooks**: Utilizes various React hooks for efficient state management and side effects.
   - `useState`
@@ -29,11 +29,11 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/imahdi2006/react-api-router-hooks.git
+   git clone https://github.com/imahdi2006/movie-website.git
 Navigate to the project directory:
 bash
 Copy code
-cd react-api-router-hooks
+cd movie-website
 Install the dependencies:
 bash
 Copy code
@@ -50,7 +50,7 @@ Here is an overview of the project's structure:
 
 java
 Copy code
-react-api-router-hooks/
+movie-website/
 ├── public/
 │   ├── index.html
 │   └── ...
@@ -63,8 +63,9 @@ react-api-router-hooks/
 │   │   └── ...
 │   ├── pages/
 │   │   ├── HomePage.js
+│   │   ├── MovieDetailPage.js
 │   │   ├── AboutPage.js
-│   │   └── ContactPage.js
+│   │   └── ...
 │   ├── App.js
 │   ├── index.js
 │   └── ...
@@ -79,7 +80,7 @@ License
 This project is licensed under the MIT License. For more details, see the LICENSE file.
 
 Contact
-For any inquiries, you can contact me at your-email@example.com.
+For any inquiries, you can contact me at mahdi.mahdi1385631@gmail.com .
 
 Support
 If you find this project helpful, please consider supporting me:
